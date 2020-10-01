@@ -1,5 +1,12 @@
-# JSONParsing
+# JSONParsing Only for Practice.
 Simple iOS app for parsing JSON data in Swift
 
-Detailed explanation here:
-https://medium.com/@sanchika.rana/json-parsing-done-right-in-swift-101641539b9f#.2cvgdke17
+In ViewController file find "getJsonFromFile()" method and replace the "example" with your json file name.
+
+like:
+
+let file = NSBundle.mainBundle().pathForResource("example", ofType: "json")
+
+to
+
+let file = NSBundle.mainBundle().pathForResource("myjsonfile.json", ofType: "json")
